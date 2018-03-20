@@ -73,7 +73,7 @@ sumokoin_add_library(common
   ${common_private_headers})
 target_link_libraries(common
   PUBLIC
-    crypto
+    cncrypto
     ${UNBOUND_LIBRARY}
     ${LIBUNWIND_LIBRARIES}
     ${Boost_DATE_TIME_LIBRARY}
